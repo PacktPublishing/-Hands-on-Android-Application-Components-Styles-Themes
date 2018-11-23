@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical" android:gravity="center">
+
+    <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:clickable="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/drawable_state_list"
+            tools:srcCompat="@tools:sample/avatars[2]"/>
+
+</LinearLayout>

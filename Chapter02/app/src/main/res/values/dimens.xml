@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">20dp</dimen>
+    <dimen name="title_size">24sp</dimen>
+    <dimen name="body_size">20sp</dimen>
+    <dimen name="button_size">16sp</dimen>
+</resources>
