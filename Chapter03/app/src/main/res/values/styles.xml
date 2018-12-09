@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <item name="android:navigationBarColor">@color/colorNavigationBar</item>
+        <item name="android:buttonStyle">@android:style/Widget.Material.Button.Inset</item>
+    </style>
+
+    <style name="BackwardCompatibleAppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+
+        <!--This feature is not work on Pre-Lollipop devices -->
+        <!--<item name="navigationBarColor">@color/colorNavigationBar</item>-->
+        <!---->
+
+        <!--@style/Widget.AppCompat.Button.Inset not exist-->
+        <item name="buttonStyle">@style/MyButtonInset</item>
+    </style>
+
+    <style name="MyButtonInset" parent="@style/Widget.AppCompat.Button">
+    <item name="android:background">@drawable/my_button_inset</item>
+    </style>
+
+    <style name="MyButton" parent="@style/Widget.AppCompat.Button">
+        <item name="android:textColor">#FF0000</item>
+    </style>
+
+    <style name="MyButtonLarger" parent="@style/MyButton">
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="MyButton.Smaller">
+        <item name="android:textSize">8sp</item>
+    </style>
+    <style name="DarkTheme" parent="android:Theme.Material"/>
+
+</resources>
