@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomView">
+        <attr name="backgroundColorValue" format="reference"/>
+        <attr name="textVisible" format="boolean"/>
+        <attr name="delimiter" format="string"/>
+    </declare-styleable>
+</resources>
