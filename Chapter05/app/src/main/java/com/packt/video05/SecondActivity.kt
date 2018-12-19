@@ -1,8 +1,8 @@
 package com.packt.video05
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
-import android.support.v7.app.AppCompatDelegate
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 
 class SecondActivity : AppCompatActivity() {
 
